@@ -1,0 +1,110 @@
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: black;
+}
+
+ul,
+li,
+p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search {
+    background: #C4C4C4;
+    max-width: 550px;
+    width: 100%;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    margin: 0 auto;
+}
+
+.search__block {
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.search__drop {
+    display: none;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.search__drop-active {
+    display: block;
+}
+
+.search__drop-item {
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 30px;
+    line-height: 35px;
+    padding: 0 0 9px 13px;
+    transition: all .2s ease-in-out;
+}
+
+.search__drop-item:hover {
+    background: #65CDF9;
+
+}
+
+.search__field {
+    padding: 5px 13px;
+    font-size: 48px;
+    color: #000000;
+    line-height: 56px;
+    width: 100%;
+}
+
+.container {
+    text-align: left;
+    max-width: 500px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.search__list {}
+
+.search__list-item {
+    text-align: left;
+    padding: 8px 16px;
+    border: 1px solid black;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E27BEB;
+}
+
+.search__list-item-content {}
+
+.name {}
+
+.owner {}
+
+.stars {}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    fill: red;
+    background: none;
+    transition: all .15s ease-in-out;
+}
+
+.btn svg {
+    width: 40px;
+    height: 40px;
+}
+
+.btn:hover {
+    fill: rgb(27, 24, 24);
+}
