@@ -17,7 +17,7 @@ function getRep() {
   input.addEventListener(
     "input",
     debounceUrl(async (e) => {
-      let value = e.target.value.trim();
+      const value = e.target.value.trim();
 
       if (value.length === 0) {
         searchDropList.innerHTML = "";
